@@ -1,0 +1,42 @@
+{
+   "members":[
+   {
+         "name":"N1gh1m4r3",
+         "rank":"Leitung",
+         "highlight":true,
+         "picture":"https://www.goldphoenix.de/wcf/images/avatars/5f/6810-5f2ef5e2eb6b18ef2087eb4509d3f3fad25a0275.jpg",
+         "profile":"https://www.goldphoenix.de/wcf/index.php?user/2024-n1gh1m4r3/"
+      },
+      {
+
+         "name":"Gero",
+         "rank":"Stv. Leitung",
+         "highlight":true,
+         "picture":"https://www.goldphoenix.de/wcf/images/avatars/84/6915-849ebee955144d593748e15426eea5c54cf9df26.jpg",
+         "profile":"https://www.goldphoenix.de/wcf/index.php?user/2065-gero/"
+      },
+      {
+
+         "name":"[GPX]Leon",
+         "rank":"Mitglied",
+         "highlight":false,
+         "picture":"https://www.goldphoenix.de/wcf/images/avatars/4b/6992-4b10376998f09c05536cc151992a2594b227a4e8.png",
+         "profile":"https://www.goldphoenix.de/wcf/index.php?user/1273-gpx-leon/"
+      },
+      {
+
+         "name":"Jerry",
+         "rank":"Mitglied",
+         "highlight":false,
+         "picture":"https://www.goldphoenix.de/wcf/images/avatars/c8/6650-c854a5b9670df7e572311e0195610b4abacca4a9.png",
+         "profile":"https://www.goldphoenix.de/wcf/index.php?user/1467-jerry/"
+      },
+      {
+            "name": "Hpguru",
+            "rank": "Mitglied",
+            "highlight": false,
+            "picture": "https://www.goldphoenix.de/wcf/images/avatars/d1/6806-d194b5c09c3864b330f9408b0f84f2dc3c48b2b9.jpg",
+            "profile": "https://www.goldphoenix.de/wcf/index.php?user/896-hpguru/"
+        }
+   ]
+}
