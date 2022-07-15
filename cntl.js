@@ -4,10 +4,11 @@ const rpids = {
     5: "sek",
     6: "zoll",
     8: "rtw",
+    9: "far",
 }
 
 const maxEntrys = 10;
-const showPageUpEntrys = 5;
+const showPageUpEntrys = 6;
 var curMembers;
 var rpSection;
 
@@ -63,6 +64,13 @@ function load(page) {
             ClearPageBox();
             setActive(rpids[page]);
             break;
+        case 9:
+            url = "https://raw.githubusercontent.com/Lino-Ranzberger/Lino-Ranzberger.github.io/master/Data/fahrschule.json";
+            rpSection = true;
+            ClearSubBox();
+            ClearPageBox();
+            setActive(rpids[page]);
+            break;
         default:
             ClearPageBox();
             loadingError("Ladefehler");
@@ -77,7 +85,7 @@ function load(page) {
 }
 
 function setActive(id) {
-    var ids = ["pol", "feu", "sek", "zoll", "rtw"];
+    var ids = ["pol", "feu", "sek", "zoll", "rtw", "far"];
     for (let i = 0; i < ids.length; i++) {
         document.getElementById(ids[i]).classList.remove("active");
     }
