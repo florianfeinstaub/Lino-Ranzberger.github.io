@@ -1,7 +1,7 @@
 const rpids = {
-    7: "pol",
-    8: "feu",
-    9: "sek",
+    3: "pol",
+    4: "feu",
+    5: "sek",
 }
 
 const maxEntrys = 7;
@@ -14,29 +14,29 @@ function load(page) {
     let url;
 
     switch (page) {
-        case 2:
+        case 1:
             url = "https://raw.githubusercontent.com/Lino-Ranzberger/Lino-Ranzberger.github.io/master/Data/bewerbungsteam.json";
             rpSection = false;
             break;
-        case 4:
+        case 2:
             url = "https://raw.githubusercontent.com/Lino-Ranzberger/Lino-Ranzberger.github.io/master/Data/teammanagement.json";
             rpSection = false;
-            break;;
-        case 7:
+            break;
+        case 3:
             url = "https://raw.githubusercontent.com/Lino-Ranzberger/Lino-Ranzberger.github.io/master/Data/polizei.json";
             rpSection = true;
             ClearSubBox();
             ClearPageBox();
             setActive(rpids[page]);
             break;
-        case 8:
+        case 4:
             url = "https://raw.githubusercontent.com/Lino-Ranzberger/Lino-Ranzberger.github.io/master/Data/feuerwehr.json";
             rpSection = true;
             ClearSubBox();
             ClearPageBox();
             setActive(rpids[page]);
             break;
-        case 9:
+        case 5:
             url = "https://raw.githubusercontent.com/Lino-Ranzberger/Lino-Ranzberger.github.io/master/Data/sek.json";
             rpSection = true;
             ClearSubBox();
