@@ -1,13 +1,11 @@
 const rpids = {
     7: "pol",
-    8: "med",
-    9: "feu",
-    10: "far",
-    11: "sek",
+    8: "feu",
+    9: "sek",
 }
 
 const maxEntrys = 10;
-const showPageUpEntrys = 5;
+const showPageUpEntrys = 3;
 var curMembers;
 var rpSection;
 
@@ -52,20 +50,6 @@ function load(page) {
             break;
         case 9:
             url = "https://raw.githubusercontent.com/Uschipanzer/UschiPanzer.github.io/master/Data/feuerwehr.json";
-            rpSection = true;
-            ClearSubBox();
-            ClearPageBox();
-            setActive(rpids[page]);
-            break;
-        case 10:
-            url = "https://raw.githubusercontent.com/Uschipanzer/UschiPanzer.github.io/master/Data/fahrschule.json";
-            rpSection = true;
-            ClearSubBox();
-            ClearPageBox();
-            setActive(rpids[page]);
-            break;
-        case 11:
-            url = "https://raw.githubusercontent.com/Uschipanzer/UschiPanzer.github.io/master/Data/sek.json";
             rpSection = true;
             ClearSubBox();
             ClearPageBox();
