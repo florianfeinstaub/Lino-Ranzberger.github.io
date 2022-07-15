@@ -2,10 +2,11 @@ const rpids = {
     3: "pol",
     4: "feu",
     5: "sek",
+    6: "zoll",
 }
 
 const maxEntrys = 10;
-const showPageUpEntrys = 3;
+const showPageUpEntrys = 4;
 var curMembers;
 var rpSection;
 
@@ -43,6 +44,13 @@ function load(page) {
             ClearPageBox();
             setActive(rpids[page]);
             break;
+        case 6:
+            url = "https://raw.githubusercontent.com/Lino-Ranzberger/Lino-Ranzberger.github.io/master/Data/zoll.json";
+            rpSection = true;
+            ClearSubBox();
+            ClearPageBox();
+            setActive(rpids[page]);
+            break;
         default:
             ClearPageBox();
             loadingError("Ladefehler");
@@ -57,7 +65,7 @@ function load(page) {
 }
 
 function setActive(id) {
-    var ids = ["pol", "feu", "sek"];
+    var ids = ["pol", "feu", "sek", "zoll"];
     for (let i = 0; i < ids.length; i++) {
         document.getElementById(ids[i]).classList.remove("active");
     }
