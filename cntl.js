@@ -3,10 +3,11 @@ const rpids = {
     4: "feu",
     5: "sek",
     6: "zoll",
+    8: "rtw",
 }
 
 const maxEntrys = 10;
-const showPageUpEntrys = 4;
+const showPageUpEntrys = 5;
 var curMembers;
 var rpSection;
 
@@ -55,6 +56,13 @@ function load(page) {
             url = "https://raw.githubusercontent.com/Lino-Ranzberger/Lino-Ranzberger.github.io/master/Data/team.json";
             rpSection = false;
             break;
+        case 8:
+            url = "https://raw.githubusercontent.com/Lino-Ranzberger/Lino-Ranzberger.github.io/master/Data/rettungsdienst.json";
+            rpSection = true;
+            ClearSubBox();
+            ClearPageBox();
+            setActive(rpids[page]);
+            break;
         default:
             ClearPageBox();
             loadingError("Ladefehler");
@@ -69,7 +77,7 @@ function load(page) {
 }
 
 function setActive(id) {
-    var ids = ["pol", "feu", "sek", "zoll"];
+    var ids = ["pol", "feu", "sek", "zoll", "rtw"];
     for (let i = 0; i < ids.length; i++) {
         document.getElementById(ids[i]).classList.remove("active");
     }
