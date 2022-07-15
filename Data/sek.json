@@ -1,95 +1,11 @@
 {
     "members": [
         {
-            "name": "Storm 187",
-            "rank": "General | Personalabteilung",
-            "highlight": true,
-            "picture": "https://www.goldphoenix.de/wcf/images/avatars/5f/6810-5f2ef5e2eb6b18ef2087eb4509d3f3fad25a0275.jpg",
-            "profile": "https://www.goldphoenix.de/wcf/index.php?user/2024-n1gh1m4r3/"
-        },
-        {
-            "name": "Yuumi 308",
-            "rank": "Generalleutnant | Ausbilder | Personalabteilung",
-            "highlight": true,
-            "picture": "https://www.goldphoenix.de/wcf/images/avatars/82/6533-8279e0d0653cca8b6124e43c59523a080a2f853d.png",
-            "profile": "https://www.goldphoenix.de/wcf/index.php?user/1803-maxtm/"
-        },
-        {
-            "name": "Vigil 74",
-            "rank": "Brigadegeneral | Ausbilder",
-            "highlight": false,
-            "picture": "https://www.goldphoenix.de/wcf/images/avatars/5c/7039-5c2fb58bfe120c5439d595e229fb80c1776a909a.jpg",
-            "profile": "https://www.goldphoenix.de/wcf/index.php?user/2098-reapzz/"
-        },
-        {
-            "name": "Rain 22",
-            "rank": "Brigadegeneral | Ausbilder | Personalabteilung",
-            "highlight": false,
-            "picture": "https://www.goldphoenix.de/wcf/images/avatars/75/7082-7524be9eeda617a29b05e5566326a3a440a0aaa8.png",
-            "profile": "https://www.goldphoenix.de/wcf/index.php?user/2077-rainzz/"
-        },
-        {
-            "name": "Wolf 911",
-            "rank": "Brigadegeneral | Ausbilder",
-            "highlight": false,
-            "picture": "https://www.goldphoenix.de/wcf/images/avatars/47/6833-47fdcc882ae12c898afd980c0940651ef787037c.jpg",
-            "profile": "https://www.goldphoenix.de/wcf/index.php?user/1831-ger-d34d-w01f/"  
-        },
-        {
-            "name": "Smoke 55",
-            "rank": "Oberstleutnant",
-            "highlight": false,
-            "picture": "https://www.goldphoenix.de/wcf/images/avatars/57/7131-573d3697b1bb51297c282bf0aebad72f79b41e62.jpg",
-            "profile": "https://www.goldphoenix.de/wcf/index.php?user/1634-mika/" 
-        },
-        {
-            "name": "Guru 34",
-            "rank": "Major",
-            "highlight": false,
-            "picture": "https://www.goldphoenix.de/wcf/images/avatars/d1/6806-d194b5c09c3864b330f9408b0f84f2dc3c48b2b9.jpg",
-            "profile": "https://www.goldphoenix.de/wcf/index.php?user/896-hpguru/"                
-        },
-        {
-            "name": "Prime 182",
-            "rank": "Stabshauptmann | Ausbilder | Personalabteilung",
-            "highlight": false,
-            "picture": "https://www.goldphoenix.de/wcf/images/avatars/84/6915-849ebee955144d593748e15426eea5c54cf9df26.jpg",
-            "profile": "https://www.goldphoenix.de/wcf/index.php?user/2065-gero/"
-        },
-        {
-            "name": "Mute 99",
-            "rank": "Hauptmann",
-            "highlight": false,
-            "picture": "https://www.goldphoenix.de/wcf/images/avatars/avatar-default.svg",
-            "profile": "https://www.goldphoenix.de/wcf/index.php?user/2214-ry-an16/"
-        },
-        {
-            "name": "Castle 12",
-            "rank": "Hauptmann",
-            "highlight": false,
-            "picture": "https://www.goldphoenix.de/wcf/images/avatars/ef/7012-ef2373e92ca1d67be178a1a1ddcf3d4d2bc7f077.jpg",
-            "profile": "https://www.goldphoenix.de/wcf/index.php?user/2136-potato/"   
-        },
-        {
             "name": "Street 441",
-            "rank": "Oberleutnant",
-            "highlight": false,
+            "rank": "General",
+            "highlight": true,
             "picture": "https://www.goldphoenix.de/wcf/images/avatars/96/6946-96d90af3adef87d2c011677b0a5ac75402b4b460.jpg",
-            "profile": "https://www.goldphoenix.de/wcf/index.php?user/2046-flo-gpx/"   
-        },
-        {
-            "name": "Arc 420",
-            "rank": "Leutnant | Personalabteilung",
-            "highlight": false,
-            "picture": "https://www.goldphoenix.de/wcf/images/avatars/4b/6992-4b10376998f09c05536cc151992a2594b227a4e8.png",
-            "profile": "https://www.goldphoenix.de/wcf/index.php?user/1273-gpx-leon/" 
-        },
-        {
-            "name": "Pommes 53",
-            "rank": "Leutnant",
-            "highlight": false,
-            "picture": "https://www.goldphoenix.de/wcf/images/avatars/avatar-default.svg",
-            "profile": "https://www.goldphoenix.de/wcf/index.php?user/2178-deano/" 
+            "profile": "http://xiteliferpe.de/index.php?user/2-flo/"
         }
     ]
 }
