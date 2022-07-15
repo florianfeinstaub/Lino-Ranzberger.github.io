@@ -35,21 +35,21 @@ function load(page) {
             rpSection = false;
             break;
         case 7:
-            url = "https://raw.githubusercontent.com/Uschipanzer/UschiPanzer.github.io/master/Data/polizei.json";
+            url = "https://raw.githubusercontent.com/Lino-Ranzberger/Lino-Ranzberger.github.io/master/Data/polizei.json";
             rpSection = true;
             ClearSubBox();
             ClearPageBox();
             setActive(rpids[page]);
             break;
         case 8:
-            url = "https://raw.githubusercontent.com/Uschipanzer/UschiPanzer.github.io/master/Data/medic.json";
+            url = "https://raw.githubusercontent.com/Lino-Ranzberger/Lino-Ranzberger.github.io/master/Data/feuerwehr.json";
             rpSection = true;
             ClearSubBox();
             ClearPageBox();
             setActive(rpids[page]);
             break;
         case 9:
-            url = "https://raw.githubusercontent.com/Uschipanzer/UschiPanzer.github.io/master/Data/feuerwehr.json";
+            url = "https://raw.githubusercontent.com/Lino-Ranzberger/Lino-Ranzberger.github.io/master/Data/sek.json";
             rpSection = true;
             ClearSubBox();
             ClearPageBox();
