@@ -14,26 +14,14 @@ function load(page) {
     let url;
 
     switch (page) {
-        case 1:
-            url = "https://raw.githubusercontent.com/Uschipanzer/UschiPanzer.github.io/master/Data/team.json";
-            rpSection = false;
-            break;
         case 2:
             url = "https://raw.githubusercontent.com/Lino-Ranzberger/Lino-Ranzberger.github.io/master/Data/bewerbungsteam.json";
-            rpSection = false;
-            break;
-        case 3:
-            url = "https://raw.githubusercontent.com/Uschipanzer/UschiPanzer.github.io/master/Data/eventteam.json";
             rpSection = false;
             break;
         case 4:
             url = "https://raw.githubusercontent.com/Lino-Ranzberger/Lino-Ranzberger.github.io/master/Data/teammanagement.json";
             rpSection = false;
-            break;
-        case 5:
-            url = "https://raw.githubusercontent.com/Uschipanzer/UschiPanzer.github.io/master/Data/rpunit.json";
-            rpSection = false;
-            break;
+            break;;
         case 7:
             url = "https://raw.githubusercontent.com/Lino-Ranzberger/Lino-Ranzberger.github.io/master/Data/polizei.json";
             rpSection = true;
