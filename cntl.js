@@ -4,8 +4,8 @@ const rpids = {
     9: "sek",
 }
 
-const maxEntrys = 7;
-const showPageUpEntrys = 3;
+const maxEntrys = 10;
+const showPageUpEntrys = 7;
 var curMembers;
 var rpSection;
 
