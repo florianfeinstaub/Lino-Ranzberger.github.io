@@ -51,6 +51,10 @@ function load(page) {
             ClearPageBox();
             setActive(rpids[page]);
             break;
+        case 7:
+            url = "https://raw.githubusercontent.com/Lino-Ranzberger/Lino-Ranzberger.github.io/master/Data/team.json";
+            rpSection = false;
+            break;
         default:
             ClearPageBox();
             loadingError("Ladefehler");
